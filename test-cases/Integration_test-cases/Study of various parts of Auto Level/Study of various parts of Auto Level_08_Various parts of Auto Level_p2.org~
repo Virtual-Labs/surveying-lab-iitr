@@ -11,7 +11,7 @@
   - To check the audio seeking in the experiment
 
 * Pre conditions
-  - Refer to first test case [[https://github.com/Virtual-Labs/surveying-lab-iitr/blob/master/test-cases/Integration_test-cases/Study%20of%20various%20parts%20of%20Auto%20Level/Study%20of%20various%20parts%20of%20Auto%20Level_01_Usability_smk.org][Study of various parts of Auto Level_01_Usability_smk.org]]
+  - Refer to first test case [[https://github.com/Virtual-Labs/surveying-lab-iitr/blob/master/test-cases/integration_test-cases/Study of various parts of Auto Level/Study of various parts of Auto Level_01_Usability_smk.org][Study of various parts of Auto Level_01_Usability_smk.org]]
 
 * Post conditions
   - Nil
