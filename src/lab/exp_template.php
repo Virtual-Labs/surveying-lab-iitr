@@ -36,7 +36,7 @@
   rel="shortcut icon"  tag to associate a small icon with the 
   page -->
   <!--link rel="shortcut icon" href="http://deploy.virtual-labs.ac.in/labs/cse09/images/favicon.png"   class="custom"-->
-  <img src="../images/favicon.png">
+  <!--img src="../images/favicon.png"-->
 
   <!-- These are the stylesheets used for the lab. Please don't
   edit them; If you do, you will lose the edits in subsequent 
