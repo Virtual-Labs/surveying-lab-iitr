@@ -74,6 +74,7 @@
 
 	
 		<map name="logos">
+			<img src="../images/favicon.png">
 			
 			<area shape="rect" coords="0,0,505,98" href="http://www.vlab.co.in/" title="Vlab" alt="Vlab" />
 			<area shape="rect" coords="734,0,1022,97" href="http://www.iitr.ac.in/" title="IITR" alt="IITR" />
