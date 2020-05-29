@@ -131,7 +131,7 @@
 				
 				<?php foreach ($nav as $n) {?>
 					<li> <a href="<?php echo $base_url."?section=".trim($n['heading']);?>">
-				Enclose the icon image of your lab
+				<!--Enclose the icon image of your lab-->
 					<?php echo $n['img']?> 
 				<br>
 				<?php echo $n['heading']?>
