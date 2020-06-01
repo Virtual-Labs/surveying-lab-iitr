@@ -35,8 +35,11 @@
   ("images/logo.jpeg" here). All major browsers support the link
   rel="shortcut icon"  tag to associate a small icon with the 
   page -->
-  <!--link rel="shortcut icon" href="http://deploy.virtual-labs.ac.in/labs/cse09/images/favicon.png"   class="custom"-->
-  <img src="../images/favicon.png">
+  <!--link rel="shortcut icon"
+  href="http://deploy.virtual-labs.ac.in/labs/cse09/images/favicon.png"
+  class="custom"-->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <!--img src="../images/favicon.png"-->
 
   <!-- These are the stylesheets used for the lab. Please don't
   edit them; If you do, you will lose the edits in subsequent 
@@ -74,6 +77,7 @@
 
 	
 		<map name="logos">
+			<!--<img src="../images/favicon.ico">-->
 			
 			<area shape="rect" coords="0,0,505,98" href="http://www.vlab.co.in/" title="Vlab" alt="Vlab" />
 			<area shape="rect" coords="734,0,1022,97" href="http://www.iitr.ac.in/" title="IITR" alt="IITR" />
@@ -131,7 +135,7 @@
 				
 				<?php foreach ($nav as $n) {?>
 					<li> <a href="<?php echo $base_url."?section=".trim($n['heading']);?>">
-				Enclose the icon image of your lab
+				<!--Enclose the icon image of your lab-->
 					<?php echo $n['img']?> 
 				<br>
 				<?php echo $n['heading']?>
