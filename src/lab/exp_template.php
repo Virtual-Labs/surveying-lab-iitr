@@ -38,7 +38,7 @@
   <!--link rel="shortcut icon"
   href="http://deploy.virtual-labs.ac.in/labs/cse09/images/favicon.png"
   class="custom"-->
-  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="../images/favicon.ico">
   <!--img src="../images/favicon.png"-->
 
   <!-- These are the stylesheets used for the lab. Please don't
