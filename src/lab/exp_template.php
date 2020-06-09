@@ -2,6 +2,8 @@
 <html lang="en" class="no-js">
 
 <head>
+<script class='gtm'>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W59SWTR');</script>
+
   
   <!--It is a good practice to declare the encoding even for an 
   English Web site. One function of this is to tag is to "reset"
@@ -38,7 +40,7 @@
   <!--link rel="shortcut icon"
   href="http://deploy.virtual-labs.ac.in/labs/cse09/images/favicon.png"
   class="custom"-->
-  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="../images/favicon.ico">
   <!--img src="../images/favicon.png"-->
 
   <!-- These are the stylesheets used for the lab. Please don't
