@@ -1,7 +1,11 @@
-#/bin/bash
-# restore Script for surveying-lab-iitr Lab
+#!/bin/bash
+# Restore Script for Data Strutures Lab
 
-# restore Script takes the restore of the database used by the lab.
-# Since there is no database being used for Biomedical Instrumentation Lab. 
+# Restore Script restores the backup of the data used by the lab.
+# Since there is no data being used by  Data Strutures Lab
 # the script does nothing. 
-# "There is no database used for the lab."
+
+# Usage of the script
+
+# To use restore script, run the command
+# ./scripts/restore

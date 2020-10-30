@@ -1,2 +1,0 @@
-radiation.rar filter=lfs diff=lfs merge=lfs -text
-radiation_exe.rar filter=lfs diff=lfs merge=lfs -text

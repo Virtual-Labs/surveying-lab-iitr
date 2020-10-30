@@ -37,11 +37,8 @@
   ("images/logo.jpeg" here). All major browsers support the link
   rel="shortcut icon"  tag to associate a small icon with the 
   page -->
-  <!--link rel="shortcut icon"
-  href="http://deploy.virtual-labs.ac.in/labs/cse09/images/favicon.png"
-  class="custom"-->
-  <link rel="shortcut icon" href="../images/favicon.ico">
-  <!--img src="../images/favicon.png"-->
+  <link rel="shortcut icon" href="http://deploy.virtual-labs.ac.in/labs/cse09//images/favicon.png"   class="custom">
+
 
   <!-- These are the stylesheets used for the lab. Please don't
   edit them; If you do, you will lose the edits in subsequent 
@@ -75,14 +72,13 @@
 	<!-- Enclose the logo image of your lab or write it in 
 	text-->
 	<a href="<?php echo $vlab_url?>"><div class="imagemap">
-		<img src="images/logo.jpg" alt="" usemap="#logos" />
+		<img src="http://virtual-labs.ac.in/images/virtualLabsLogo.jpg" alt="" usemap="#logos" />
 
 	
 		<map name="logos">
-			<!--<img src="../images/favicon.ico">-->
 			
 			<area shape="rect" coords="0,0,505,98" href="http://www.vlab.co.in/" title="Vlab" alt="Vlab" />
-			<area shape="rect" coords="734,0,1022,97" href="http://www.iitr.ac.in/" title="IITR" alt="IITR" />
+			<area shape="rect" coords="734,0,1022,97" href="http://www.iiit.ac.in/" title="IIIT" alt="IIIT" />
 			
 			<area shape="default" nohref="nohref" title="Default" alt="Default"/>
 		</map>
@@ -90,7 +86,7 @@
       
      </a>
 	</div>
-
+	
 	<div id="experiment-header-heading" class="heading">
 	<!-- Write the name of your lab and link it to the home 
 	page of your lab (h1 tag is preferred while writing your 
@@ -137,7 +133,7 @@
 				
 				<?php foreach ($nav as $n) {?>
 					<li> <a href="<?php echo $base_url."?section=".trim($n['heading']);?>">
-				<!--Enclose the icon image of your lab-->
+				<!-- Enclose the icon image of your lab -->
 					<?php echo $n['img']?> 
 				<br>
 				<?php echo $n['heading']?>
@@ -158,8 +154,7 @@
 
 		<div id="experiment-article-section-1-icon" class="icon">
 		<!-- Enclose the icon image of your lab -->
-		<!--img src="http://deploy.virtual-labs.ac.in/labs/cse09/images/introduction.jpg"-->
-		<img src="../images/introduction.jpg">
+		<img src="http://deploy.virtual-labs.ac.in/labs/cse09//images/introduction.jpg">
 		</div>	
 		
 		<!-- The heading for the section can be enclosed in a 
@@ -206,7 +201,7 @@
   footer-->
    <footer id="lab-footer" class="footer">
     <!-- Put the content here-->
-	<a href="http://virtual-labs.ac.in/nmeict/">Sponsered by MHRD (NME-ICT) </a> | <a href="http://virtual-labs.ac.in/licensing/" target="_blank"> Licensing Terms </a> | <a href="http://goo.gl/A6mcux" target="_blank"> Feedback </a>
+	<a href="http://virtual-labs.ac.in/nmeict/">Sponsered by MHRD (NME-ICT) </a> | <a href="http://virtual-labs.ac.in/licensing/" target="_blank"> Licensing Terms </a> | <a href="http://virtual-labs.ac.in/feedback/?lab=cse01/" target="_blank"> Feedback </a>
   </footer>
 	
   	
@@ -215,13 +210,11 @@
 	
   <!-- Javascript at the bottom for fast page loading -->
 
-  
+  <?php include_once("analyticstracking.php") ?>
 
   
   <!-- ******** ADD/OVERRIDE JAVASCRIPT FILES HERE ********* -->
   
-<?php include_once("analyticstracking.php") ?>
-
 
   <!-- ***************************************************** -->
   
